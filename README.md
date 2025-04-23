@@ -50,15 +50,23 @@ Batch Size: 8
 
 Loss selama pelatihan terus menurun, mencapai nilai stabil sekitar 0.005 setelah beberapa epoch.
 
+## 📈 Rata‑rata Loss
+
+| Metrik     | Nilai rata‑rata |
+|------------|-----------------|
+| `loss`     | **≈ 0.0030**    |
+| `val_loss` | **≈ 0.0017**    |
+
+
 ## 🖼️ Contoh Input dan Output
 
 Berikut perbandingan antara gambar input dan hasil rekonstruksi dari autoencoder:
 
 | Input                          | Output                      | Target                      |
 |--------------------------------|-----------------------------------|
-| ![Input](assets/input1 (1).png)      | ![Output](outputs/output_image_36.bmp)    |  ![Target](data/general100/im_41.bmp)    |
-| ![Input](assets/input1 (2).png)      | ![Output](outputs/output_image_38.bmp)   |  ![Target](data/general100/im_43.bmp)    |
-| ![Input](assets/input1 (3).png)   | ![Output](outputs/output_image_16.bmp)   | ![Target](data/general100/im_23.bmp)    |
+| ![](assets/input_1.png)      | ![](outputs/output_image_36.bmp)    |  ![](data/general100/im_41.bmp)    |
+| ![](assets/input_2.png)      | ![](outputs/output_image_38.bmp)   |  ![](data/general100/im_43.bmp)    |
+| ![](assets/input_3.png)   | ![](outputs/output_image_16.bmp)   | ![](data/general100/im_23.bmp)    |
 
 Gambar di atas adalah gabungan dari hasil input, output model, dan target ground-truth dari dataset General-100. File output dapat ditemukan di direktori outputs/ dan file input di data/general100/.
 
