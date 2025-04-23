@@ -63,13 +63,35 @@ Loss selama pelatihan terus menurun, mencapai nilai stabil sekitar 0.005 setelah
 
 Berikut perbandingan antara gambar input dan hasil rekonstruksi dari autoencoder:
 
-| Input                          | Output                      | Target                      |
-|--------------------------------|-----------------------------------|
-| ![](assets/input_1.png)      | ![](outputs/output_image_36.bmp)    |  ![](data/general100/im_41.bmp)    |
-| ![](assets/input_2.png)      | ![](outputs/output_image_38.bmp)   |  ![](data/general100/im_43.bmp)    |
-| ![](assets/input_3.png)   | ![](outputs/output_image_16.bmp)   | ![](data/general100/im_23.bmp)    |
+<table>
+  <thead>
+    <tr>
+      <th>Input</th>
+      <th>Output</th>
+      <th>Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="assets/input_1.png" width="150"/></td>
+      <td><img src="outputs/output_image_36.bmp" width="150"/></td>
+      <td><img src="data/general100/im_41.bmp" width="150"/></td>
+    </tr>
+    <tr>
+      <td><img src="assets/input_2.png" width="150"/></td>
+      <td><img src="outputs/output_image_38.bmp" width="150"/></td>
+      <td><img src="data/general100/im_43.bmp" width="150"/></td>
+    </tr>
+    <tr>
+      <td><img src="assets/input_3.png" width="150"/></td>
+      <td><img src="outputs/output_image_16.bmp" width="150"/></td>
+      <td><img src="data/general100/im_23.bmp" width="150"/></td>
+    </tr>
+  </tbody>
+</table>
 
-Gambar di atas adalah gabungan dari hasil input, output model, dan target ground-truth dari dataset General-100. File output dapat ditemukan di direktori outputs/ dan file input di data/general100/.
+Gambar di atas adalah gabungan dari hasil input, output model, dan target ground-truth dari dataset General-100. File output dapat ditemukan di direktori `outputs/` dan file input di `data/general100/`.
+
 
 🚀 Cara Menjalankan
 Clone repositori ini:
