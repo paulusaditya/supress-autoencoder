@@ -36,6 +36,7 @@ model = Sequential([
     Conv2DTranspose(64, (3,3), strides=2, activation='relu', padding='same'),
     Conv2D(3, (3,3), activation='sigmoid', padding='same')
 ])
+```
 
 📈 Performa Model
 Model dilatih dengan:
